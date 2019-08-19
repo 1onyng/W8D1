@@ -55,6 +55,4 @@ class User
     def authored_replies
         Reply.find_by_user_id(self.id)
     end
-
-
 end
